@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lava Jato Samurai - Catálogo de Serviços</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #1e1e1e;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    /* Cabeçalho */
+    header {
+      text-align: center;
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 36px;
+      color: #FFA500;
+      margin: 0;
+    }
+    /* Seções gerais */
+    .section {
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #2e2e2e;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+    /* Título das seções */
+    .section h2 {
+      margin-top: 0;
+      color: #FFA500;
+      border-bottom: 2px solid #444;
+      padding-bottom: 10px;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    /* Serviços e Combos */
+    .service, .combo {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #3a3a3a;
+      border-radius: 8px;
+    }
+    .service h3, .combo h3 {
+      margin: 0 0 10px;
+      color: #FFA500;
+      font-size: 22px;
+    }
+    .service p, .combo p {
+      margin: 8px 0;
+      line-height: 1.5;
+      font-size: 16px;
+    }
+    .price {
+      font-weight: bold;
+      color: #FFA500;
+      font-size: 18px;
+    }
+    /* Chamada para ação */
+    .cta {
+      text-align: center;
+      margin: 30px 0;
+    }
+    .cta a {
+      background-color: #FFA500;
+      color: #1e1e1e;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    .cta a:hover {
+      background-color: #e69500;
+    }
+    /* Rodapé */
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      border-top: 2px solid #444;
+      margin-top: 30px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <!-- Logo removida -->
+      <h1>Samurai Lava Jato</h1>
+    </header>
+    
+    <!-- Lavagem Simples -->
+    <section class="section" id="lavagem-simples">
+      <h2>Lavagem Simples</h2>
+      <div class="service">
+        <h3>Lavagem Simples</h3>
+        <p>Nossa lavagem simples é ideal para manter seu veículo limpo e brilhante no dia a dia. Usamos produtos de alta qualidade para garantir um acabamento impecável, removendo sujeiras leves e realçando o brilho da pintura.</p>
+        <p class="price">Preços: P: R$35 | M: R$45 | G: R$60</p>
+      </div>
+    </section>
+
+    <!-- Lavagem Completa -->
+    <section class="section" id="lavagem-completa">
+      <h2>Lavagem Completa</h2>
+      <div class="service">
+        <h3>Lavagem Completa</h3>
+        <p>A lavagem completa oferece uma limpeza profunda, tanto no interior quanto no exterior do veículo. Inclui aspiração interna, limpeza de vidros e aplicação de produtos que protegem e renovam a aparência do seu carro.</p>
+        <p class="price">Preços: P: R$60 | M: R$80 | G: R$100</p>
+      </div>
+    </section>
+
+    <!-- Serviços Especiais -->
+    <section class="section" id="servicos-especiais">
+      <h2>Serviços Especiais</h2>
+      <div class="service">
+        <p><strong>Lavagem de Motor:</strong> Limpeza profunda para manter o desempenho - <span class="price">R$60</span></p>
+        <p><strong>Lavagem de Bancada/Piso:</strong> Renovação completa do interior - <span class="price">R$150</span></p>
+        <p><strong>Lavagem de Teto:</strong> Eliminação de manchas e odores - <span class="price">R$100</span></p>
+        <p><strong>Lavagem de Chassi:</strong> Proteção contra corrosão - <span class="price">R$70</span></p>
+        <p><strong>Revitalização de Faróis:</strong> Mais visibilidade e estética - <span class="price">R$60</span></p>
+        <p><strong>Hidratação de Couro:</strong> Mantém o couro macio e sem rachaduras - <span class="price">R$80</span></p>
+        <p><strong>Oxi-higienização de Ar-Condicionado:</strong> Ar puro e livre de bactérias - <span class="price">R$40</span></p>
+        <p><strong>Ceras Especiais Vonixx:</strong> Proteção extra para a pintura - <span class="price">Sob consulta</span></p>
+        <p><strong>Polimento Técnico:</strong> Brilho espelhado e remoção de riscos - <span class="price">Sob consulta</span></p>
+        <p><strong>Lavagem de Tapetes Residenciais:</strong> Limpeza profunda para sua casa - <span class="price">Sob consulta</span></p>
+      </div>
+    </section>
+
+    <!-- Combos Promocionais -->
+    <section class="section" id="combos">
+      <h2>Combos Promocionais</h2>
+      <div class="combo">
+        <h3>Combo 1: Limpeza Essencial</h3>
+        <p><strong>Inclui:</strong> Lavagem Simples (M), Lavagem de Bancada, Oxi-higienização de Ar, Lavagem de Teto.</p>
+        <p>De <span style="text-decoration: line-through;">R$285</span> por <span class="price">R$256,50</span> (<strong>10% OFF</strong>)</p>
+      </div>
+      <div class="combo">
+        <h3>Combo 2: Revitalização Interna</h3>
+        <p><strong>Inclui:</strong> Hidratação de Couro, Lavagem Completa (M), Oxi-higienização de Ar.</p>
+        <p>De <span style="text-decoration: line-through;">R$220</span> por <span class="price">R$198</span> (<strong>10% OFF</strong>)</p>
+      </div>
+      <div class="combo">
+        <h3>Combo 3: Brilho Total</h3>
+        <p><strong>Inclui:</strong> Lavagem Completa (G), Polimento Técnico, Revitalização de Faróis.</p>
+        <p>De <span style="text-decoration: line-through;">R$430</span> por <span class="price">R$387</span> (<strong>10% OFF</strong>)</p>
+      </div>
+    </section>
+
+    <!-- Chamada para ação -->
+    <div class="cta">
+      <a href="https://www.instagram.com/samurai.lavajato/#" target="_blank">Agende Já</a>
+    </div>
+
+    <!-- Informações de Contato -->
+    <footer>
+      <p><strong>Contato:</strong> 84 9709-8278</p>
+      <p><strong>Endereço:</strong> Avenida Petra Kelly, 4 - Nova Parnamirim, Parnamirim - RN, 59.152-330</p>
+      <p><strong>Email:</strong> samuraiesteticaauto@outlook.com</p>
+    </footer>
+  </div>
+</body>
+</html>
